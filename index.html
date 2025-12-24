@@ -62,16 +62,24 @@
     </section>
 
     <!-- CONTATO -->
-    <section id="contato" class="section">
-      <h2>Contato</h2>
+    <form class="form contato-form">
+      <div class="field">
+        <label>Nome</label>
+        <input type="text" required />
+      </div>
 
-      <form class="form">
-        <input type="text" placeholder="Nome" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Mensagem"></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
+      <div class="field">
+        <label>Email</label>
+        <input type="email" required />
+      </div>
+
+      <div class="field">
+        <label>Mensagem</label>
+        <textarea required></textarea>
+      </div>
+
+      <button type="submit" class="btn-enviar">Enviar mensagem</button>
+    </form>
 
     <!-- FOOTER -->
     <footer class="footer">
