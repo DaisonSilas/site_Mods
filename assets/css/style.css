@@ -70,12 +70,25 @@ body {
   font-size: 1.2rem;
 }
 
-.btn {
-  display: inline-block;
-  padding: 15px 40px;
-  background: #222;
-  color: white;
-  text-decoration: none;
+.btn-enviar {
+  align-self: center;
+  padding: 12px 26px;
+  border-radius: 30px;
+  border: none;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+.btn-enviar:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+.btn-enviar:active {
+  transform: scale(0.97);
 }
 
 /* SEÇÕES */
