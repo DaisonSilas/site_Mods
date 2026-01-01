@@ -49,6 +49,14 @@ body {
   color: white;
 }
 
+.hero-logo {
+  width: 900px; /* controle aqui */
+  max-width: 70%;
+  height: auto;
+  transition: transform 0.3s ease;
+  will-change: transform;
+}
+
 .glass {
   background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(20px) saturate(120%);
