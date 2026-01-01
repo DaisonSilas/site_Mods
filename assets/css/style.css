@@ -55,6 +55,9 @@ body {
   height: auto;
   transition: transform 0.3s ease;
   will-change: transform;
+  pointer-events: none; /*  remove clique */
+  user-select: none; /* impede seleção */
+  cursor: default; /* seta normal */
 }
 
 .glass {
@@ -159,7 +162,7 @@ body {
 .footer {
   padding: 30px;
   text-align: center;
-  background: #222;
+  background: #2222222c;
   color: white;
 }
 
